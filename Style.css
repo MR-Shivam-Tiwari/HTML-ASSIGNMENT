@@ -1,0 +1,306 @@
+.First {
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    width: 852px;
+    height: 833px;
+    /* UI Properties */
+    background: transparent linear-gradient(136deg, #FCF3F3 0%, #FFFFFF 49%, #FAF1F0 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.img {
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 852px;
+    width: 628px;
+    height: 833px;
+    /* UI Properties */
+    background: transparent url('/Rectangle\ 41.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+/* NAVBAR */
+.nav {
+    margin-top: 78px;
+    margin-left: 166px;
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #E7A09E;
+    opacity: 1;
+
+}
+
+.nav1 {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 220px;
+
+    width: 64px;
+    height: 27px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal medium 20px/28px Avenir;
+    letter-spacing: 6px;
+    color: #5F5A5A;
+    opacity: 1;
+}
+
+/* Text  */
+.text1 {
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 181px;
+    width: 248px;
+    height: 85px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal 300 64px/90px Avenir;
+    letter-spacing: 19.2px;
+    color: #D2A1A2;
+    opacity: 1;
+}
+
+.text2 {
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 179px;
+    width: 348px;
+    height: 85px;
+    font-size: 4rem;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 64px/90px Avenir;
+    letter-spacing: 19.2px;
+    color: #393334;
+    opacity: 1;
+}
+
+p {
+    margin-top: 485px;
+    margin-left: 171px;
+    width: 475px;
+    position: absolute;
+    height: 70px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 13px/26px Open Sans;
+    letter-spacing: 0px;
+    color: #9A6B69;
+    opacity: 1;
+}
+
+/* EMAIL  */
+.email {
+    margin-top: 606px;
+    margin-left: 171px;
+    position: absolute;
+    width: 456px;
+    height: 57px;
+    /* UI Properties */
+    border: 1px solid #9A6B69;
+    border-radius: 29px;
+    opacity: 1;
+}
+
+.email1 {
+    margin-top: 18px;
+    margin-left: 30px;
+    font-size: 18px;
+    color: #ADBDCA;
+    width: 456px;
+    height: 57px;
+}
+
+.email2 {
+    position: absolute;
+    margin-top: 607px;
+    margin-left: 533px;
+    width: 95px;
+    height: 57px;
+    /* UI Properties */
+    background: #E7A09E 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 29px;
+    opacity: 1;
+}
+
+span {
+    /* content: "\003E"; */
+    margin-top: 617px;
+    position: absolute;
+    margin-left: 573px;
+    width: 8px;
+    height: 16px;
+    /* transform: matrix(0, -1, 1, 0, 0, 0); */
+    color: #FFFDFE;
+    opacity: 1;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 420px) {
+    body {
+        width: 100%;
+        height: 100%;
+        /* align-items:center ; */
+    }
+
+    .main {
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+    }
+
+    .img {
+        margin-top: 170px;
+        margin-left: 0px;
+        width: 765px;
+        height: 430px;
+
+        background: url('/Rectangle\ 40.png') 100%/100%no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+    }
+
+    .First {
+        margin-top: 0px;
+        margin-left: 0px;
+
+        width: 770px;
+        align-items: center;
+        height: 1000px;
+
+        background: transparent linear-gradient(156deg, #FCF3F3 0%, #FFFFFF 49%, #FAF1F0 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+
+
+
+    .nav {
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 73px;
+        height: 70px;
+        border: 4px solid #E7A09E;
+        opacity: 1;
+
+
+    }
+
+    .nav1 {
+
+        width: 44px;
+        height: 19px;
+        text-align: center;
+        font: normal normal medium 14px/20px Avenir;
+        letter-spacing: 4.2px;
+        color: #5F5A5A;
+        opacity: 1;
+        margin-top: 50px;
+        margin-left: 155px;
+    }
+
+    .text1 {
+        margin-top: 600px;
+        margin-left: 265px;
+        width: 154px;
+        height: 53px;
+
+        text-align: center;
+        /* font: normal normal 300 40px/57px Avenir; */
+        letter-spacing: 12px;
+        color: #D2A1A2;
+        opacity: 1;
+    }
+
+    .text2 {
+        margin-top: 670px;
+        margin-left: 210px;
+        width: 344px;
+        height: 53px;
+
+        text-align: center;
+        font: normal normal medium 40px/57px Avenir;
+        letter-spacing: 12px;
+        color: #393334;
+        opacity: 1;
+    }
+
+
+
+    .para {
+        margin-top: 820px;
+        margin-left: 190px;
+        width: 391px;
+        height: 110px;
+        text-align: center;
+        font: normal normal 600 12px/20px Open Sans;
+        letter-spacing: 1px;
+        color: #9A6B69;
+        opacity: 1;
+    }
+    .email {
+        margin-top: 930px;
+        margin-left: 230px;
+        width: 302px;
+        height: 50px;
+       
+        border: 1px solid #9A6B69;
+        border-radius: 29px;
+        opacity: 1;
+    }
+    .email2 {
+        margin-top: 931px;
+        margin-left: 440px;
+        width: 95px;
+        height: 50px;
+       
+        background: #E7A09E 0% 0% no-repeat padding-box;
+        border-radius: 29px;
+        opacity: 1;
+    }
+    .email1{
+        margin-left: -140px;
+    }
+}
+
+/*
+    .email {
+        margin-top: 627px;
+        margin-left: 25px;
+        width: 302px;
+        height: 50px;
+       
+        border: 1px solid #9A6B69;
+        border-radius: 29px;
+        opacity: 1;
+    }
+
+    .email2 {
+        margin-top: 628px;
+        margin-left: 233px;
+        width: 95px;
+        height: 50px;
+       
+        background: #E7A09E 0% 0% no-repeat padding-box;
+        border-radius: 29px;
+        opacity: 1;
+    }
+
+    .span {
+       
+        position: absolute;
+        margin-left: 282px;
+        width: 8px;
+        height: 16px;
+       
+        color: #900d4e;
+        opacity: 1;
+        font-size: 30px;
+    } */
+
